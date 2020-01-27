@@ -1,0 +1,295 @@
+
+.backgroundimg{
+  
+background-image: url("../images/background.jpg");
+height: 660px;
+}
+
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .borderremove{
+    /* border-bottom: hidden; */
+    /* border-bottom: inherit; */
+    border-bottom: none;
+
+  }
+  .solarimg{
+    
+   height: 40px;
+   color: rgb(255, 255, 255);
+
+  }
+
+  .margintop{
+    color: rgb(253, 253, 253);
+
+    margin-top: -8px;
+  }
+  
+  .margintopagain1{
+    color: rgb(255, 255, 255);
+
+    margin-top: -5px;
+  }
+  .margintopagain2{
+    color: rgb(248, 248, 248);
+
+    margin-top: -18px;
+  }
+  
+  .aditechsolar{
+    color: white;
+    padding-top: 2%;
+  }
+
+  .paddingL{
+    padding-top: 22%;
+    padding-left: 27%;
+    padding-right: 20%;
+
+  }
+  /* Add some padding inside the card container */
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px 16px;
+  }
+
+
+  .button {
+    border-radius: 4px;
+    background-color: #f7f7f7;
+    border: none;
+    text-align: center;
+    font-size: 23px;
+    padding: 10px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -24px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .buttonmargin{
+margin-top: 3%;
+  }
+
+.solarbigimg{
+  height: 470px;
+  width: 100%;
+}
+ 
+
+  .buttoninhomepage {
+    border-width: 2.5px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    padding: 10px;
+    padding-left: 34px;
+    padding-right: 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 2px 1px;
+  }
+.rowpaddingb{
+padding:12%;
+}
+  
+  .button5 {
+    padding-right: -22%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+
+  .brand-logo{
+margin-left: -47%;
+  }
+
+  .homemid{
+    margin-left: -140%;
+    font-weight: bold;
+    font-size: 29px;
+
+  }
+  .aboutmid{
+    margin-left: -120%;
+    font-weight: bold;
+
+  }
+  .solarexpalinmid{
+    margin-left: -100%;
+    font-weight: bold;
+
+  }
+  .userdeailmid{
+    margin-left: -70%;
+    font-weight: bold;
+
+
+  }
+
+   .body {
+     margin: 0;
+     padding: 0;
+      font-family: 'Roboto', helvetica !important;
+      color: #000000;
+    }
+
+    .producecleanenergy{
+      font-size: 29px;
+      font-weight: 400;
+        }
+   .lEARNMOREbtn{
+     padding-left: 23px;
+   }
+    .solarexpalin{
+      font-size: 16px;
+    }
+
+    nav {
+
+      background-color: transparent;
+      box-shadow: none;
+    }
+
+    .bodypayMethod
+    {
+      background-color:'#FCFCFC';
+      width: 80%;
+      height: 50;
+      border-radius: 10;
+      margin-top: 0;
+      margin-left:'10%';
+      flex-direction: 'row';
+    }
+
+    .amountText
+    {
+      width: 90%;
+      height: 45;
+      text-align: right;
+      margin: 10;
+      font-weight: bold;
+      font-size: 20;
+    }
+
+    .inputfield{
+        border-radius: 25px;
+        background: #ffffff;
+        border-bottom: 0;
+      }
+    /* .input1{
+      
+    border: none;
+    border-bottom: none;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 16px;
+    margin: 0 0 8px 0;
+    padding: 0;
+      } */
+      
+      div{
+        border-bottom: none ;
+      }
+    
+      #fullpage{
+        height: 100vh;
+      }
+      
+      #fullpage section{
+        height: 100vh;
+      }
+
+      .buttonaftersolarimg {
+        border-width: 2.5px;
+        background-color: white;
+        border-color: #000000;
+        color: #000000;
+        padding: 10px;
+        padding-left: 32px;
+        padding-right: 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 11px;
+        margin: 2px 1px;
+      }
+      
+      .block {
+        margin-top: -30px;
+        display: block;
+        width: 100%;
+        border-width: 2.5px;
+        background-color: transparent;
+        border-color: #000000;
+        color: #000000;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+
+      }
+.solarline1{
+  padding-left: 95px;
+}
+
+.page-footer{
+  color: #000000;
+   background-color: transparent;
+}
+.maps{
+  margin-right: -12px;
+}
+
+      @media screen and (min-width:0px) and (max-width:320px) and (max-height:640){
+        .solarbigimg{
+          width: 100%;
+        }
+        .buttonaftersolarimg{
+          width: 100%;
+        }
+        .button5{
+          width: 100%;
+
+        }
+        .solarline1{
+          width: 100%;
+
+        }
+      }
